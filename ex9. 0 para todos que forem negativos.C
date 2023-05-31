@@ -1,3 +1,6 @@
+/*Giovanni Chiarello 31/05
+Finalidade: imprime 0 para todos os numeros que forem menores que 0 dentro de um vetor
+*/
 #include <stdio.h>
 #include <locale.h>
 int main(){
@@ -5,7 +8,7 @@ int main(){
 	int array[10], i;
 	printf("Digite 10 valores inteiros:\n");
 	for(i=0;i<10;i++){
-		printf("Insira o %d° numero: ",i+1); scanf("%d", &array[i]);
+		printf("Insira o %dÂ° numero: ",i+1); scanf("%d", &array[i]);
 	}
 	for(i=0;i<10;i++){
 		if(array[i]<0){
