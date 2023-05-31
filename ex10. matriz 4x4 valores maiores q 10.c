@@ -1,3 +1,6 @@
+/*Giovanni Chiarello 31/05
+Finalidade: mostra todos os valores que são maiores que 10 dentro de uma matriz
+*/
 #include <stdio.h>
 #include <locale.h>
 #define TAM1 5
