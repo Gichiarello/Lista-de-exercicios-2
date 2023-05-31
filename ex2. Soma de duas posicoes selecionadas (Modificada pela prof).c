@@ -1,3 +1,6 @@
+/*Giovanni Chiarello 31/05
+Finalidade: Soma as duas posiçoes selecionadas no vetor
+*/
 #include <stdio.h>
 #include <locale.h>
 #define TAM 8
@@ -26,7 +29,7 @@ int main(){
 	b=array[y];
 
 	s = a+b;
-	printf("\nA soma dos valores encontrados nas posi�oes %d e %d: %d", x, y, s);
+	printf("\nA soma dos valores encontrados nas posiçoes %d e %d: %d", x, y, s);
 	
 	return 0;
 }
