@@ -1,3 +1,6 @@
+/*Giovanni Chiarello 31/05
+Finalidade: Soma as duas posi√ßoes selecionadas no vetor
+*/
 #include <stdio.h>
 #include <locale.h>
 #define TAM 8
@@ -7,10 +10,10 @@ int main(){
 	int x, y, a=0, b=0, s=0;
 	printf("Digite 8 valores:\n");
 	for(i=0;i<TAM;i++){
-		printf("Insira o %d∞ numero: ",i+1); scanf("%d", &array[i]);
+		printf("Insira o %d¬∞ numero: ",i+1); scanf("%d", &array[i]);
 	}
-	printf("\nDigite a posiÁ„o em que queira selecionar o primeiro numero: "); scanf("%d", &x);
-	printf("Digite a posiÁ„o em que queira selecionar o segundo numero: "); scanf("%d", &y);
+	printf("\nDigite a posi√ß√£o em que queira selecionar o primeiro numero: "); scanf("%d", &x);
+	printf("Digite a posi√ß√£o em que queira selecionar o segundo numero: "); scanf("%d", &y);
 	x-=1;
 	b-=1;
 	for(i=0;i<10;i++){
@@ -22,6 +25,6 @@ int main(){
 		}
 	}
 	s = a+b;
-	printf("\nA soma dos valores encontrados nas posiÁoes %d e %d: %d", x, y, s);
+	printf("\nA soma dos valores encontrados nas posi√ßoes %d e %d: %d", x, y, s);
 	
 }
