@@ -1,5 +1,6 @@
-//crie um programa que leia 6 valores inteiros, em seguida mostre os valores em ordem inversa
-
+/*Giovanni Chiarello 31/05
+Finalidade: imprime a ordem inversa dos numeros inseridos
+*/
 #include <stdio.h>
 #define TAM 6
 int main(){
