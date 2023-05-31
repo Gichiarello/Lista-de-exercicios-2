@@ -1,3 +1,6 @@
+/*Giovanni Chiarello 31/05
+Finalidade: Localiza o maior numero na matriz
+*/
 #include <stdio.h>
 #include <locale.h>
 #define TAM1 4
@@ -22,7 +25,7 @@ int main(){
 			}
         }
     }
-    printf("\nO maior elemento da matriz é %d e esta na pocição %d i, %d j", maior, posI, posJ);
+    printf("\nO maior elemento da matriz Ã© %d e esta na pociÃ§Ã£o %d i, %d j", maior, posI, posJ);
     return 0;
 	
 }
