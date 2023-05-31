@@ -1,5 +1,7 @@
-//crie um programa que leia 10 valores inteiros, aponte todos os pares e fale quantos s„o
-
+//crie um programa que leia 10 valores inteiros, aponte todos os pares e fale quantos s√£o
+/*Giovanni Chiarello 31/05
+Finalidade: mostra todos os pares dentro de um vetor
+*/
 #include <stdio.h>
 #include <locale.h>
 #define TAM 10
@@ -10,7 +12,7 @@ int main(){
 	for (i=0;i<TAM;i++){
 		scanf("%d", &array[i]);
 	}
-	printf("todos os pares escritos e quantos s„o:\n");
+	printf("todos os pares escritos e quantos s√£o:\n");
 	for(i=0;i<TAM;i++){
 		if(array[i]%2==0){
 			cont+=1;
