@@ -1,5 +1,6 @@
-//crie um programa que imprima o maior elemento e a posiÁ„o dele dentro de um vetor
-
+/*Giovanni Chiarello 31/05
+Finalidade: mostra qual o maior numero de um vetor e a sua posi√ß√£o
+*/
 #include <stdio.h>
 #include <locale.h>
 #define TAM 10
@@ -16,7 +17,7 @@ int main(){
     		pos=i+1;
 		}
     }
-    printf("\nO maior elemento È %d e est· na posiÁ„o %d", maior, pos);
+    printf("\nO maior elemento √© %d e est√° na posi√ß√£o %d", maior, pos);
 
     return 0;
 }
