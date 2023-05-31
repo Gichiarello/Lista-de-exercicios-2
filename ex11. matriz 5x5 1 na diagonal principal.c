@@ -1,3 +1,6 @@
+/*Giovanni Chiarello 31/05
+Finalidade: todos os valores na diagonal principal de uma matriz é substituida pelo numero 1
+*/
 #include <stdio.h>
 #include <locale.h>
 #define TAM1 5
