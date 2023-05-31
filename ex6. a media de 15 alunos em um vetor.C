@@ -1,3 +1,6 @@
+/*Giovanni Chiarello 31/05
+Finalidade: calcula a media de uma sala de 15 alunos
+*/
 #include <stdio.h>
 #include <locale.h>
 #define TAM 15
@@ -8,14 +11,14 @@ int main(){
 	int i;
 	printf("Digite as 15 notas dos alunos:\n");
 	for(i=0;i<TAM;i++){
-		printf("Insira a %dª nota: ",i+1); scanf("%f", &array[i]);
+		printf("Insira a %dÂª nota: ",i+1); scanf("%f", &array[i]);
 	}
 	for(i=0;i<TAM;i++){
 		soma+=array[i];
 	}
 	media = soma/TAM;
 	
-	printf("\nA média das notas: %.2f", media);
+	printf("\nA mÃ©dia das notas: %.2f", media);
 	
 	return 0;
 }
